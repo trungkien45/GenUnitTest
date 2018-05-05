@@ -115,6 +115,7 @@ namespace GenUnitTestReport
             {
                 string s = "";
                 Method item = publicmethods[i];
+                // Check overload
                 if (i < publicmethods.Count - 1)
                 {
                     Method nextitem = publicmethods[i + 1];
