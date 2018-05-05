@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\bin\Debug\GenUnitTestReport.exe.config
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\bin\Debug\GenUnitTestReport.exe
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\bin\Debug\GenUnitTestReport.pdb
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.Form1.resources
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.Properties.Resources.resources
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.exe
+C:\Users\Admin\source\repos\GenUnitTestReport\GenUnitTestReport\obj\Debug\GenUnitTestReport.pdb
