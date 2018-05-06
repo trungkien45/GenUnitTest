@@ -13,6 +13,11 @@ namespace GenUnitTestReport
         {
             get; set;
         }
+	public string Async
+        {
+            get; set;
+        }
+        
         public string Override
         {
             get; set;

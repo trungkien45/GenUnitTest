@@ -94,13 +94,14 @@ namespace GenUnitTestReport
                 source = RemoveString(source);
             List<Method> methods = new List<Method>();
 
-            string methodpattern = @"(\s|^)((?<accessmodifier>public)\s*(?<override>override)*\s*(?<static>static)*\s*)(?<type>\S+)*\s+(?<name>\S+)\s*\(\s*(?<paramaters>[^\)]*\s*)\)\s*{";
+            string methodpattern = @"(\s|^)((?<accessmodifier>public)\s*(?<static>static)*\s*(?<async>async)*\s*(?<override>override)*\s*)(?<type>\S+)*\s+(?<name>\S+)\s*\(\s*(?<paramaters>[^\)]*\s*)\)\s*{";
             MatchCollection mc = Regex.Matches(source, methodpattern);
             foreach (Match item in mc)
             {
                 Method method = new Method();
                 method.AccessModifier = item.Groups["accessmodifier"].Value;
                 method.Static = item.Groups["static"].Value;
+                method.Async = item.Groups["async"].Value;
                 method.Override = item.Groups["override"].Value;
                 method.Type = item.Groups["type"].Value;
                 method.Name = item.Groups["name"].Value;
